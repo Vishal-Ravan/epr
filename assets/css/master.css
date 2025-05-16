@@ -1293,7 +1293,7 @@ img.experiancepath {
 .side-about-section-area {
  background: #ffff;
  border-radius: 5px;
- padding: 100px;
+ padding:70px;
  margin-top: 90px;
 }
 .author-about-text {
@@ -1336,7 +1336,7 @@ img.experiancepath {
  object-fit: cover;
 }
 .aboutwelcome-scetion-area{
-  background-image: url(../img/bg/about-welcome-bg.png);
+  background-image: url(../img/bg/all.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1631,7 +1631,7 @@ transition: all .4s ease;
   transform: rotate(-30deg);
 }
 .service-3-text-area.hover-bg {
-  background: #eeb742;
+  background: #599832;
   transition: all .4s ease-in-out;
 }
 .service-3-text-area.hover-bg a span{
@@ -1648,7 +1648,7 @@ transition: all .4s ease;
   transition: all .4s ease-in-out;
 }
 .service-3-text-area:hover{
-  background: #eeb742;
+  background: #599832;
   transition: all .4s ease-in-out;
 }
 .service-3-text-area:hover img{
@@ -3268,7 +3268,7 @@ a.next-pages:hover {
   right: 0;
 }
 .border-7 {
-  border: 1px solid #D6EAFF;
+  border: 1px solid #599832;
 }
 .table-img {
     display: flex;
@@ -6017,4 +6017,33 @@ a.allservice.white {
   background-size: cover;
   position: relative;
   padding: 215px 0 115px;
+}
+
+
+.blog-1 img{
+  height: 250px;
+}
+
+.collapse-text {
+  max-height: 120px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  position: relative;
+}
+
+.collapse-text.expanded {
+  max-height: 1000px; /* large enough for full text */
+}
+
+.see-more-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 5px 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.text-justify{
+  text-align: justify;
 }
